@@ -2,3 +2,16 @@
 * text=auto
 help/* linguist-language=Markdown
 docs/* linguist-language=Markdown
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+SMSMAA,,    MSM,    MSMAA,    MSMAA,,
+NSSMDocumentation/* linguist-language=Markdown
+*.zip binary
+*.exe binary
+*.dll binary
+*.so binary
